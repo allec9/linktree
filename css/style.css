@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    /* Elementos filhos um do lado do outro */
+    flex-direction: column;
+    /* Elementos filhos para baixo */
+    gap: 18px;
+    /* separamento entre eles */
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* arredondar as bordas */
+    border: black 3px solid;
+    box-shadow: black 1px 6px 5px;
+}
+
+.cabecalho h1 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho p {
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+.btns a {
+    width: 235px;
+    color: black;
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 100px;
+    border: black 2px;
+    box-shadow: 4px 4px 0px;
+}
+.btns a:hover{
+background-color: rebeccapurple;
+}
